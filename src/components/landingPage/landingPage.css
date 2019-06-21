@@ -1,0 +1,45 @@
+.header__container {
+    height: 70vh;
+    clip-path: polygon(0 0, 100% 0%, 100% 72%, 0% 100%);
+    width: 100%;
+
+}
+
+.intro {
+    text-align: center;
+    font-size: 20px;
+}
+
+.intro-white{
+    color: white;
+}
+
+img{
+    width: 100%;
+}
+
+.header_images{
+    position: relative;
+    top: -250px;
+}
+.highlight__section_1{
+    margin-top: -250px;
+}
+.bold {
+    font-weight: bold;
+}
+
+
+.bottom {
+    clip-path: polygon(0 9%, 100% 0, 100% 100%, 0% 100%);
+}
+.bottom__container-1 {
+    margin-top: 80px;
+    padding-top: 100px;
+
+}
+.questions Typography {
+    line-height: 2rem;
+}
+
+

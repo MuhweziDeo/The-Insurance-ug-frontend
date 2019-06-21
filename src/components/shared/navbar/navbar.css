@@ -1,0 +1,8 @@
+.navbar {
+    color: black !important;
+    background: transparent !important;
+    font-weight: lighter;
+    box-shadow: none !important;
+    cursor: pointer;
+    /* text-transform: lowercase !important; */
+}
