@@ -1,0 +1,7 @@
+.modal-content {
+    background: white;
+    width: 400px;
+    position: absolute;
+    padding: 20px;
+    border: none;
+}

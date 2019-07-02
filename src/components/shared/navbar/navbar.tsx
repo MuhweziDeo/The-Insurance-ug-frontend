@@ -2,6 +2,8 @@ import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import { Container, Box, Button, Typography } from '@material-ui/core';
 import './navbar.css';
+import Modal from  '../modal/modal';
+import Input from '@material-ui/core/Input';
 
 const NavigationBarComponent: React.FC = () => {
 return (
@@ -28,8 +30,23 @@ return (
       </Box>
 
       <Box display="flex" flexDirection="row">
-        <Button>
-          Request Demo
+      <Button>
+          <Modal name="Request Demo" >
+          <Box display="flex" flexDirection="column">
+            <Input placeholder="Enter email" />
+            <Box display="flex" flexGrow={1} flexDirection="row" marginTop="20px" marginBottom="20px" >
+            <Button variant="contained" color="primary" >Submit</Button>
+            </Box>
+            <Box>
+              <Typography component="p">
+                Please Enter your email and we shall contact you to inorder to complete your registration
+              </Typography>
+              <Typography component="p">
+              Please note that the link will expire in 24 hours
+              </Typography>
+            </Box>
+            </Box>
+          </Modal>
         </Button>
         <Button>
           Sign In

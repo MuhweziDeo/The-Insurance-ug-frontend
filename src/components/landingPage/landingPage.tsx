@@ -28,8 +28,7 @@ return (
                 <Divider />
 
                 <Box textAlign="center" flexGrow={1} p={2}>
-                    <Typography align="center" component="p">
-                        Paper can be used to build surface or other elements for your application.
+                    <Typography align="center" component="img"> 
                     </Typography>
                     <List>
                         <ListItem>
@@ -51,17 +50,10 @@ return (
                     </Button>
                 </Box>
             </Box>
-            <Box display="flex" p={2} height="350px" marginTop="70px" marginLeft="-15px" color="white" bgcolor="#1B1859"
+            <Box  display="block" width="500px" p={2} height="350px" marginTop="70px" marginLeft="-15px" color="white" bgcolor="#1B1859"
                 boxShadow={3} m={2}>
-                <Box display="flex" flexDirection="column">
-                    <Typography variant="h5" component="h3">
-                        This is a sheet of paper.
-                    </Typography>
-                    <Divider />
-                    <Typography component="p">
-                        Paper can be used to build surface or other elements for your application.
-                    </Typography>
-                </Box>
+                    <img src="https://images.pexels.com/photos/1266005/pexels-photo-1266005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"/>
+               
             </Box>
         </Box>
     </Container>
